@@ -1,0 +1,137 @@
+body,
+html {
+  width: 1920px;
+  height: 1080px;
+  margin: 0;
+  padding: 0;
+}
+.wrap {
+  height: 100%;
+}
+.wrap .item {
+  height: 100%;
+  display: none;
+  overflow: hidden;
+}
+.wrap .item:first-of-type {
+  display: block;
+}
+.wrap .item .Wrap {
+  height: 100%;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0 80px;
+  text-shadow: 3px 3px 5px #000000;
+}
+.wrap .item .Wrap .header {
+  position: relative;
+  color: #f2c334;
+  text-align: center;
+}
+.wrap .item .Wrap .header .title {
+  font-size: 84px;
+  padding-top: 70px;
+}
+.wrap .item .Wrap .header p {
+  padding-top: 0;
+  font-size: 38px;
+  display: inline-block;
+  width: 634px;
+}
+.wrap .item .Wrap .header .logo {
+  position: absolute;
+  right: 0px;
+  top: 50px;
+}
+.wrap .item .Wrap .header .logo img {
+  width: 133px;
+  height: 133px;
+}
+.wrap .item .Wrap .section {
+  border: solid 2px rgba(242, 195, 52, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 5px rgba(0, 40, 98, 0.2);
+  border-radius: 20px;
+  font-size: 62px;
+  color: #f2c334;
+  padding: 50px 145px;
+  max-height: 600px;
+  overflow: hidden;
+}
+.wrap .item .Wrap .section .department {
+  overflow: hidden;
+  padding-top: 50px;
+}
+.wrap .item .Wrap .section .department .name {
+  display: inline- block;
+  width: 200px;
+}
+.wrap .item .Wrap .section .department .name .nbsps {
+  padding: 0 30px;
+}
+.wrap .item .Wrap .section .department .san {
+  display: inline-block;
+  width: 340px;
+}
+.wrap .item .Wrap .section .department .wu {
+  display: inline-block;
+  width: 450px;
+}
+.wrap .item .Wrap .section .department .left {
+  float: left;
+  margin-right: 10px;
+  width: 252px;
+  line-height: 80px;
+}
+.wrap .item .Wrap .section .department .mh {
+  float: left;
+  text-align: center;
+}
+.wrap .item .Wrap .section .department .right {
+  float: left;
+}
+.wrap .item .Wrap .section .department .right p {
+  line-height: 80px;
+  margin: 0;
+}
+.wrap .item .Wrap .section .department .right p .name {
+  width: 190px;
+  display: inline-block;
+  text-align: justify;
+  text-align-last: justify;
+  text-justify: inter-ideograph;
+}
+.wrap .item .Wrap .section .department .right p .san {
+  width: 350px;
+  display: inline-block;
+  text-align: justify;
+  text-align-last: justify;
+  text-justify: inter-ideograph;
+}
+.wrap .item .Wrap .section .department.hub {
+  float: right;
+  margin-right: 5px;
+}
+.wrap .item .Wrap .section .department.leader {
+  width: 100%;
+  padding-top: 0;
+}
+.wrap .item .Wrap .section .department.observatory {
+  float: left;
+}
+.wrap .item .Wrap .section .department.else {
+  width: 100%;
+}
+.wrap .item .Wrap .section .announcement p {
+  font-size: 85px;
+  line-height: 110px;
+  margin: 0;
+  padding: 0;
+}
+.wrap .item .Wrap .sectionTwo {
+  min-height: 800px;
+}
+.wrap .item .WrapTwo {
+  padding-top: 75px;
+}
